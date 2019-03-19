@@ -1,0 +1,41 @@
+.review{
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: linear-gradient(336.91deg, #F0F4FD -56.86%, #FFFFFF 126.39%);
+  &>p{
+    width: 85%
+  }
+  &>.button-wrapper{
+    width: 60%;
+    position: unset;
+    @media screen and (max-width : 450px) {
+        width: 90%;   
+    }
+  }
+  &>.interest{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    & .item{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: 1em;
+      &>.title{
+        font-size: .8em;
+        font-weight: bolder;
+      }
+      &>.author{
+        font-size: .6em;
+        font-weight: bolder;
+
+      }
+    }
+  }
+}

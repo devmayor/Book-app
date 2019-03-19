@@ -7,6 +7,10 @@ import zoom from "../../assets/zoom.png";
 // import one from "../../../assets/books/1.png";
 import two from "../../assets/books/2.png";
 import three from "../../assets/books/3.png";
+import four from "../../assets/books/4.png";
+import five from "../../assets/books/5.png";
+import six from "../../assets/books/6.png";
+// import three from "../../assets/books/3.png";
 import arrowRight from "../../assets/arrow-right.png";
 
 import home from "../../assets/home.png";
@@ -28,6 +32,7 @@ export class Books extends Component {
       intro:
         "Sometimes dead is better....When the Creeds move into a beautiful old house in rural Maine, -- and now an idyllic home...."
     },
+
     {
       id: 2,
       image: three,
@@ -44,6 +49,36 @@ export class Books extends Component {
       title: "Remote Office",
       author: "Jason Fried",
       rating: 4,
+      reviwersCount: "232,000",
+      intro:
+        "Sometimes dead is better....When the Creeds move into a beautiful old house in rural Maine, -- and now an idyllic home...."
+    },
+    {
+      id: 4,
+      image: four,
+      title: "Scar Tissue",
+      author: "Anthony Kiddies",
+      rating: 5,
+      reviwersCount: "232,000",
+      intro:
+        "Sometimes dead is better....When the Creeds move into a beautiful old house in rural Maine, -- and now an idyllic home...."
+    },
+    {
+      id: 5,
+      image: five,
+      title: "Eat Awesome",
+      author: "Paul Jarvis",
+      rating: 5,
+      reviwersCount: "232,000",
+      intro:
+        "Sometimes dead is better....When the Creeds move into a beautiful old house in rural Maine, -- and now an idyllic home...."
+    },
+    {
+      id: 6,
+      image: six,
+      title: "The Waste Lands",
+      author: "Stephen King",
+      rating: 5,
       reviwersCount: "232,000",
       intro:
         "Sometimes dead is better....When the Creeds move into a beautiful old house in rural Maine, -- and now an idyllic home...."
@@ -189,7 +224,7 @@ export class Books extends Component {
           </>
         )}
         <div className="footer">
-          <Link to="/books">
+          <Link to="/">
             <img src={home} alt="" />
             Timeline
           </Link>
