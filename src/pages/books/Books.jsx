@@ -2,17 +2,17 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import { Background } from "./components/Background";
 import { Rating } from "./components/Rating";
-import { Button } from "../../../components/Button";
-import zoom from "../../../assets/zoom.png";
+import { Button } from "../../components/Button";
+import zoom from "../../assets/zoom.png";
 // import one from "../../../assets/books/1.png";
-import two from "../../../assets/books/2.png";
-import three from "../../../assets/books/3.png";
-import arrowRight from "../../../assets/arrow-right.png";
+import two from "../../assets/books/2.png";
+import three from "../../assets/books/3.png";
+import arrowRight from "../../assets/arrow-right.png";
 
-import home from "../../../assets/home.png";
-import review from "../../../assets/review.png";
-import notifications from "../../../assets/notifications.png";
-import bookOpen from "../../../assets/book-open.png";
+import home from "../../assets/home.png";
+import review from "../../assets/review.png";
+import notifications from "../../assets/notifications.png";
+import bookOpen from "../../assets/book-open.png";
 
 import "./styles.scss";
 

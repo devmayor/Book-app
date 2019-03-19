@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./form-field.scss";
-import eyeOff from "../../../../assets/eye-off.png";
-import eyeOn from "../../../../assets/eye-on.png";
+import eyeOff from "../../../assets/eye-off.png";
+import eyeOn from "../../../assets/eye-on.png";
 
 export class FormField extends Component {
   styles = {

@@ -2,8 +2,8 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import { Background } from "./components/Background";
 import { FormField } from "./components/FormField";
-import { Button } from "../../../components/Button";
-import light from "../../../assets/light.png";
+import { Button } from "../../components/Button";
+import light from "../../assets/light.png";
 import "./styles.scss";
 
 export class Auth extends Component {

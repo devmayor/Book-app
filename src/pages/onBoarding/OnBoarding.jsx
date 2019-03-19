@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import { Background } from "./components/Background";
 import { Link } from "react-router-dom";
-import book from "../../../assets/book.png";
-import star from "../../../assets/star.png";
-import arrowLeft from "../../../assets/arrow-left.png";
+import book from "../../assets/book.png";
+import star from "../../assets/star.png";
+import arrowLeft from "../../assets/arrow-left.png";
 import "./styles.scss";
 
 export class OnBoarding extends Component {
