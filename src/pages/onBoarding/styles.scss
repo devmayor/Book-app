@@ -1,0 +1,114 @@
+.onboarding {
+    width: stretch;
+    height: 100vh;
+    background: linear-gradient(336.91deg, #F0F4FD -56.86%, #FFFFFF 126.39%);
+    position: fixed;
+    & .ball-1 {
+        position: absolute;
+        top: 1em;
+        // mix-blend-mode: exclusion
+    }
+    & .ball-2 {
+        position: absolute;
+        bottom: 0
+    }
+    & .ball-3 {
+        position: absolute;
+        right: 10px;
+        top: 50px;
+    }
+    & .ball-4 {
+        position: absolute;
+        left: 30px;
+        top: 100px;
+    }
+    & .ball-5 {
+        position: absolute;
+        right: 10px;
+    }
+
+    & a {
+        color: #384f7d;
+        font-weight: bold;
+    }
+    
+
+    & .row {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        width: 30%;
+        @media screen and (max-width : 450px) {
+            width: 60%;   
+        }
+        margin: 2em 0;
+    }
+
+    .fab{
+        width: 48px;
+        height: 48px;
+        background: linear-gradient(125.58deg, #BAFB67 -5.37%, #00D23A 196.64%);
+        border-radius: 48px;
+        border: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+
+    .main {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        &>* {
+            max-width: 80%;
+            padding: 0 1em
+        }
+
+        &>div{
+            z-index: 10;
+        }
+
+        & .slider{
+            display: flex;
+            flex-direction: row;
+            cursor: pointer;
+            // justify-content: center;
+            // position: relative;
+            @keyframes slide {
+                from {
+                    transform:translateX(-10px)
+                }
+                to {
+                    transform:translateX(0)
+                }
+            }
+            &>div{
+                margin: .2em;
+                width: 12px;
+                height: 12px;
+                // left: 103px;
+                // top: 669px;
+                background: #8EF15C;
+                border-radius: 11111px;
+                opacity: 0.5;
+            }
+
+            &>.active{
+                width: 36px;
+                height: 12px;
+                // left: 60px;
+                // top: 669.5px;
+                animation: slide 1s  linear;                
+                background: #8EF15C;
+                opacity: 1;
+                border-radius: 11111px;
+            }
+        }
+    }
+
+}
